@@ -19,7 +19,7 @@ This document contains the list of technologies, frameworks, and approaches that
 
 ## Factors to be Considered
 
-Each of the available technologies has its advantages and disadvantages, and there's a general tendency to prefer the one with more benefits. But a good approach is to choose the technology according to our requirements and the scope of the project.
+Each of the available technologies has its advantages and disadvantages, and there's a general tendency to prefer the one with more benefits. But the right approach is to choose the technology according to our requirements and the scope of the project.
 
 So, the factors that should be considered for selecting the candidate technology are:
 
@@ -29,7 +29,7 @@ So, the factors that should be considered for selecting the candidate technology
    - Relay functional code/script into the browser.
    - Compatible across multiple platforms and devices.
 3. Stability and long-term support for the technology.
-4. Provide assistance in implementing navigation features.
+4. Assist in implementing navigation features.
 
 ## Candidate Technologies
 
@@ -59,23 +59,23 @@ This option would involve creating our browser extension (or add-on) that will e
 - Stable and long-term support.
 - Based on JavaScript and can support Infusion.
 - Provides various Chrome APIs which would be useful in implementing certain navigation effects/features.
-- Lightweight and easy for user to set-up (and install).
+- Lightweight and easy for users to set-up (and install).
 - Requires no separate execution of scripts by the user.
 - Can run on both Desktop and Mobile (supported for a few browsers only).
 
 #### Disadvantages
 
-- Cross-browser restrictions i.e., a Chrome-basesd extension can't run on Firefox or vice-versa.
+- Cross-browser restrictions, i.e., a Chrome-based extension can't run on Firefox or vice-versa.
 
-Most of the browsers (Chrome, Microsoft Edge, Opera, etc.) are based on Chromium and can thus run Chrome Extension.The Chromium-based browsers for mobile such as [Kiwi](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=en_IN) also support and allow users to install and run Chrome Extensions (unlike the Google Chrome for mobile).
+Most of the browsers (Chrome, Microsoft Edge, Opera, etc.) are based on Chromium and can thus run Chrome Extension. The Chromium-based browsers for mobile such as [Kiwi](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&hl=en_IN) also support and allow users to install and run Chrome Extensions (unlike the Google Chrome for mobile).
 
 Although a Firefox add-on would offer the same support and features, it will only be limited to Firefox. Talking about Safari add-ons, it would be accessible only to Apple users, as Safari runs only on macOS and iOS.
 
-A Chrome extension would be accessible to a wide range of users, and so I believe that a Chrome Extension would be better than a Firefox or Safari add-on, if we choose to proceed with this option. The Chrome Extension can be ported to Firefox and Safari later in the future.
+A Chrome extension would be accessible to a wide range of users, and so I believe that a Chrome Extension would be better than a Firefox or Safari add-on if we choose to proceed with this option. The Chrome Extension can be ported to Firefox and Safari later in the future.
 
 ### Electron.js Desktop App
 
-This would involve making a desktop app that can work at OS level.
+This would involve making a desktop app that can work at the OS level.
 
 #### Advantages
 
@@ -83,7 +83,7 @@ This would involve making a desktop app that can work at OS level.
 - OS-level execution of actions.
 - Simulate keyboard as well as mouse events.
 - Based on JavaScript and can support Infusion.
-- Easy for user to set-up (and install).
+- Easy for users to set-up (and install).
 - Requires no separate execution of scripts by the user.
 
 #### Disadvantages
@@ -93,11 +93,11 @@ This would involve making a desktop app that can work at OS level.
 - ([Robot.js](https://www.npmjs.com/package/robotjs)) No stable release yet.
 - Large size (> 100mb) and resource hogging.
 
-This solution would offer more control to the users, in terms of navigation. The major limitations would be that it won't work on a mobile and will consume high amount of resources. Also, a few solutions already exist which offer the users to navigate at OS-level using a gamepad.
+This solution would offer more control to the users in terms of navigation. The significant limitation would be that it won't work on mobile and will consume a high amount of resources. Also, a few solutions already exist which offer the users to navigate at OS-level using a gamepad.
 
 ### Espruino Pico
 
-This is a bit different approach. As of now, we want to have browser navigation using gamepad. But we can achieve similar results using an Internet of Things (IoT) board. Espruino Pico is one such IoT board that can be used both as a keyboard and a mouse.
+This is a bit of a different approach. As of now, we want to have browser navigation using a gamepad. But we can achieve similar results using an Internet of Things (IoT) board. Espruino Pico is one such IoT board that can be used both as a keyboard and a mouse.
 
 #### Advantages
 
@@ -116,7 +116,7 @@ This is a bit different approach. As of now, we want to have browser navigation 
 - Requires knowledge from the user to debug or fix, if damaged (bricked).
 - Less flexible in terms of reconfiguration.    <!-- Swap hardware, buttons, etc. -->
 
-Although this is a low-cost solution, it seems unconvenient to me, both as a developer and an user. This would require too much of technical setup and integration and a decent knowledge of IoT Boards. The users might feel overwhelmed.
+Although this is a low-cost solution, it seems inconvenient to me, both as a developer and a user. This would require too much of technical setup and integration and a decent knowledge of IoT Boards. Users might feel overwhelmed.
 
 ### Secondary Extensions / Add-ons
 
@@ -130,7 +130,7 @@ There are some extensions or add-ons that can inject our code (scripts) into the
 #### Disadvantages
 
 - Requires setting-up and loading the scripts separately by the user.
-- Limitations in regards to a few navigation features ot effects.
+- Limitations in regards to a few navigation features or effects.
 - More dependent on technology.
 - Sometimes load potentially unwanted programs (PUPs) and malware in the background.
 - Contains some potential bugs that can hamper the user experience.
@@ -138,7 +138,7 @@ There are some extensions or add-ons that can inject our code (scripts) into the
 
 ### Bookmarklets
 
-A bookmarklet is a bookmark tab that injects script into the current webpage when pressed. The bookmark tab must be linked to the script that we want to inject and the script must be hosted on the web.
+A bookmarklet is a bookmark tab that injects script into the current webpage when pressed. The bookmark tab must be linked to the script that we want to insert, and the script must be hosted on the web.
 
 #### Advantages
 
@@ -150,7 +150,7 @@ A bookmarklet is a bookmark tab that injects script into the current webpage whe
 #### Disadvantages
 
 - Requires the user to set-up the bookmarklet manually.
-- Requires executing manually everytime the webpage is updated, reloaded or a new tab or browser window is opened.
+- Needs to be executed manually every time the webpage is updated, reloaded, or a new tab or browser window is opened.
 - Limitations in regards to a few navigation features ot effects.
 - Less flexible in terms of reconfiguration.
 
