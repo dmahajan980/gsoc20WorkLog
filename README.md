@@ -6,10 +6,10 @@
 2. [Factors to be Considered](#factors-to-be-considered)
 3. [Candidate Technologies](#candidate-technologies)
 4. [Analysis](#analysis)
-   - [Custom Browser Extension / Add-on](#custom-browser-extension-/-add-on)
-   - [Electron.js Desktop App](#electron.js-desktop-app)
+   - [Custom Browser Extension / Add-on](#custom-browser-extension--add-on)
+   - [Electron.js Desktop App](#electronjs-desktop-app)
    - [Espruino Pico](#espruino-pico)
-   - [Secondary Extensions / Add-ons](#secondary-extensions-/-add-ons)
+   - [Secondary Extensions / Add-ons](#secondary-extensions--add-ons)
    - [Bookmarklets](#bookmarklets)
 5. [Conclusion](#conclusion)
 
