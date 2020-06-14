@@ -20,11 +20,7 @@ Details
 
 ## Coding Period
 
-Phase One
----
-
-**Time Period:** 4 weeks (June 1 - June 28)
-
+PHASE ONE
 ---
 
 ### Week One
