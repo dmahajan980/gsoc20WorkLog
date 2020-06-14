@@ -10,7 +10,7 @@
 
 4 weeks (May 4 - May 31)
 
-### Learnings and Word Done:
+### Learnings and Word Done
 
 - Studied [jqUnit](https://docs.fluidproject.org/infusion/development/jqUnit.html), [Infusion View API](https://docs.fluidproject.org/infusion/development/ViewAPI.html), and [Context Awareness API](https://docs.fluidproject.org/infusion/development/ContextAwareness.html) as my mentor suggested.
 - Made changes to the Infusion-based [Gamepad Prototype](https://github.com/dmahajan980/gamepad-prototype-using-infusion) as per the discussions with my mentor.
@@ -25,12 +25,12 @@
 
 1 week (June 1 - June 7)
 
-### Weekly Check-in:
+### Weekly Check-in
 
 - We discussed about the various candidate technnologies that I shortlisted for the project and some queries related to those.
 - We decided that I'll spend the current week learning and trying out both the technologies and observe their usage patterns to make an informed choice of the final candidate.
 
-### Tasks Completed:
+### Tasks Completed
 
 - [PR #4](https://github.com/fluid-lab/gamepad-navigator/pull/4): Prepared a document for candidate technologies that can be used and narrowed the list down to Chrome Extension and Electron App.
 - [PR #5](https://github.com/fluid-lab/gamepad-navigator/pull/5): Created the initial skeleton for the project repository. Read the documentation of [Grunt](https://gruntjs.com/) and [ESLint](https://eslint.org/) for setting up the configuration.
@@ -45,12 +45,12 @@
 
 1 week (June 8 - June 14)
 
-### Weekly Check-in:
+### Weekly Check-in
 
 - In the previous weekly check-in, we decided that I'll learn and try out both the technologies I proposed. So, we discussed about my review of the two candidates, their benefits, and limitations apart from the ones already mentioned in the document.
 - We decided that I'll prepare a written analysis of the two technologies to choose the final candidate and after that, we'll work on the project plan.
 
-### Tasks Completed:
+### Tasks Completed
 
 - [PR #6](https://github.com/fluid-lab/gamepad-navigator/pull/6): Configured [Grunt Banner](https://www.npmjs.com/package/grunt-banner) plugin to add license/copyright boilerplate at the top of relevant files and restructured license and copyright-related files as per the Fluid Community's conventions. Studied RegExp for configuring the plugin to find the existing banner and replace with the newer ones.
 - Made changes to the [PR #5](https://github.com/fluid-lab/gamepad-navigator/pull/5) as suggested by the mentor.
