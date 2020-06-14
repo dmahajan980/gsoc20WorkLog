@@ -1,3 +1,5 @@
 theme: jekyll-theme-architect
 title: Google Summer of Code 2020 Work Log
 description: Using a Game Controller as a Navigation Aid | Inclusive Design Institute
+github:
+  is_project_page: false
