@@ -1,7 +1,6 @@
 # GSoC '20 Work Log | Inclusive Design Institute
 
-Details
----
+## Details
 
 **Project:** Using a Game Controller as a Navigation Aid<br>
 **Student:** Divyanshu Mahajan<br>
@@ -45,7 +44,7 @@ Details
 #### Weekly Check-in:
 
 - In the previous weekly check-in, we decided that I'll learn and try out both the technologies I proposed. So, we discussed about my review of the two candidates, their benefits, and limitations apart from the ones already mentioned in the document.
-- We decided that I'll prepare a written analysis for the two technologies to choose the final technology and after we finalize the technology, we'll work on the project plan.
+- We decided that I'll prepare a written analysis of the two technologies to choose the final candidate and after that, we'll work on the project plan.
 
 #### Tasks Completed:
 
