@@ -6,7 +6,9 @@
 
 # Community Bonding Period
 
-**Time Period:** 4 weeks (May 4 - May 31)
+### Time Period
+
+4 weeks (May 4 - May 31)
 
 ### Learnings and Word Done:
 
@@ -19,7 +21,9 @@
 
 ## Week One
 
-**Time Period:** 1 week (June 1 - June 7)
+### Time Period
+
+1 week (June 1 - June 7)
 
 ### Weekly Check-in:
 
@@ -37,7 +41,9 @@
  
 ## Week Two
 
-**Time Period:** 1 week (June 8 - June 14)
+### Time Period
+
+1 week (June 8 - June 14)
 
 ### Weekly Check-in:
 
