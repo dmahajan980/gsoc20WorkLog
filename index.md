@@ -68,8 +68,8 @@ June 15 - June 21
 
 ### Weekly Check-in
 
-- In this check-in, we discussed and decided upon the project plan and rearranged the project milestones and deliverables that I mentioned in my proposal. We also decided that we should complete intra-navigation features by the end of the first evaluation.
-- We talked about the possible ways and techniques to test our work such as testing whether chrome extension loads in the browser, simulating gamepad inputs, et cetera. We believe that we need to investigate more on these so that the work can be tested extensively.
+- In this check-in, we discussed and decided upon the project plan and rearranged the project milestones and deliverables that I mentioned in my proposal. We also decided that I should complete intra-navigation features first and by the end of the first evaluation.
+- We talked about the possible ways and techniques to test our work such as testing whether chrome extension loads in the browser, simulating gamepad inputs, et cetera. We believe that we need to investigate more on the tools and techniques so that the work can be tested extensively.
 - Moreover, we decided that we should add tests and support for continuous integration into the project by the end of second phase.
 - One of the features we should include in the project is the flexibility to re-map controls. My mentor was curious to know if we can remove the dependency on keyboard and mouse for the same and we decided that I'll come up with an approach for the same.
 
