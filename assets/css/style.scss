@@ -6,3 +6,8 @@
 #sidebar {
   display: none;
 }
+
+header > .inner > a > h1,
+header > .inner > h2 {
+  width: auto;
+}
