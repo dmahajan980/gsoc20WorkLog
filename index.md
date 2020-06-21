@@ -8,9 +8,9 @@
 
 ### Time Period
 
-4 weeks (May 4 - May 31)
+May 4 - May 31 (4 weeks)
 
-### Learnings and Word Done
+### Learnings and Work Done
 
 - Studied [jqUnit](https://docs.fluidproject.org/infusion/development/jqUnit.html), [Infusion View API](https://docs.fluidproject.org/infusion/development/ViewAPI.html), and [Context Awareness API](https://docs.fluidproject.org/infusion/development/ContextAwareness.html) as my mentor suggested.
 - Made changes to the Infusion-based [Gamepad Prototype](https://github.com/dmahajan980/gamepad-prototype-using-infusion) as per the discussions with my mentor.
@@ -23,7 +23,7 @@
 
 ### Time Period
 
-1 week (June 1 - June 7)
+June 1 - June 7
 
 ### Weekly Check-in
 
@@ -43,7 +43,7 @@
 
 ### Time Period
 
-1 week (June 8 - June 14)
+June 8 - June 14
 
 ### Weekly Check-in
 
@@ -57,3 +57,32 @@
 - Completed studying and reviewing [Electron.js](https://www.electronjs.org/) and [Robot.js](https://robotjs.io/). For the analysis of the candidates, I implemented a [demo app](https://github.com/dmahajan980/electron-robot-demo) which uses Gamepad API to take inputs from a gamepad and process them into OS level actions.
 - Prepared the analysis for the two shortlisted candidates - Electron App and Chrome Extension and finalized the Chrome Extension for the project with my mentor.<br>
   _(Updated in [PR #4](https://github.com/fluid-lab/gamepad-navigator/pull/4))_
+
+---
+ 
+## Week Three
+
+### Time Period
+
+June 15 - June 21
+
+### Weekly Check-in
+
+- In this check-in, we discussed and decided upon the project plan and rearranged the project milestones and deliverables that I mentioned in my proposal. We also decided that we should complete intra-navigation features by the end of the first evaluation.
+- We talked about the possible ways and techniques to test our work such as testing whether chrome extension loads in the browser, simulating gamepad inputs, et cetera. We believe that we need to investigate more on these so that the work can be tested extensively.
+- Moreover, we decided that we should add tests and support for continuous integration into the project by the end of second phase.
+- One of the features we should include in the project is the flexibility to re-map controls. My mentor was curious to know if we can remove the dependency on keyboard and mouse for the same and we decided that I'll come up with an approach for the same.
+
+### Tasks Completed
+
+- [PR #8](https://github.com/fluid-lab/gamepad-navigator/pull/8): Added [grunt-contrib-copy](https://www.npmjs.com/package/grunt-contrib-copy) and [grunt-contrib-clean](https://www.npmjs.com/package/grunt-contrib-clean) for clearing and copying the unpacked extension files and wrote an infusion component to read inputs from the gamepad.
+- Modified the above pull request to have the co-piloting feature, similar to the ["co-pilot mode" in Xbox One](https://www.youtube.com/watch?v=Ib9nL8qTbX0&list=PLUvQt4_vdB-hK8BI5CZr5XQjD3cFH4hYd).
+- Investigated on ways to simulate keypresses and agreed with the mentor that we might have to use custom synthetic events for navigation.
+- Looked into ways by which we can tab across elements. For the purpose, we had the [jQuery UI focusable selector](https://api.jqueryui.com/focusable-selector/) which lacked support for certain DOM elements. So I modified the function definition and added support for more DOM elements.
+- Moreover the selector returns the elements according to the flow of the webpage and not in order of their tabindex. So I added an extra layer of sorting to return the elements in that particular order.
+- Other concern that needs to be addressed was closing the modals and alert dialogs. I researched and found that there's no way to do so using JavaScript. But I made a list of few workarounds we can use:
+  - Using the Chrome Extension's [Notification API](https://developer.chrome.com/extensions/notifications) for notifying users about the alert and clearing the standard alert method's definition.
+  - Replacing the alert method's definition to display a custon on-screen dialog box or the standard [jQuery UI dialog](https://jqueryui.com/dialog/#modal-confirmation).
+- Implemented the vertical and horizontal scroll feature. Also implemented scrolling for the standard directions (up, down, left, right) so that the user can scroll using buttons as well.
+- Started investigating ways to simulate gamepad input for testing purposes.
+  
