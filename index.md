@@ -84,7 +84,7 @@ June 15 - June 21
 - Another concern that needs to be addressed was closing the modals and alert dialogs. I researched and found that there's no way to do so using JavaScript. But I made a list of few workarounds we can use:
   - Using the Chrome Extension's [Notification API](https://developer.chrome.com/extensions/notifications) for notifying users about the alert and clearing the standard alert method's definition.
   - Replacing the alert method's definition to display a custom on-screen dialog box or the standard [jQuery UI dialog](https://jqueryui.com/dialog/#modal-confirmation).
-- Implemented the vertical and horizontal scroll feature. Also implemented scrolling for the standard directions (up, down, left, right) so that the user can scroll using buttons as well.
+- Implemented the vertical and horizontal scroll feature. Also implemented scrolling for the standard directions (up, down, left, right) so that the user can scroll using buttons as well.<br>
   (_PR to be sent after the [PR #8](https://github.com/fluid-lab/gamepad-navigator/pull/8) is merged, to avoid merge conflicts)_
 - Started investigating ways to simulate gamepad input for testing purposes.
   
