@@ -1,14 +1,22 @@
 # Details
 
-**Project:** Using a Game Controller as a Navigation Aid<br>
-**Student:** Divyanshu Mahajan<br>
-**Mentors:** Tony Atkins, Colin Clark
+### Project
+
+Using a Game Controller as a Navigation Aid
+
+### Student
+
+Divyanshu Mahajan
+
+### Mentors
+
+Tony Atkins, Colin Clark
 
 # Community Bonding Period
 
 ### Time Period
 
-May 4 - May 31 (4 weeks)
+4 May - 31 May (4 weeks)
 
 ### Learnings and Work Done
 
@@ -23,7 +31,7 @@ May 4 - May 31 (4 weeks)
 
 ### Time Period
 
-June 1 - June 7
+1 June - 7 June
 
 ### Weekly Check-in
 
@@ -43,7 +51,7 @@ June 1 - June 7
 
 ### Time Period
 
-June 8 - June 14
+8 June - 14 June
 
 ### Weekly Check-in
 
@@ -64,7 +72,7 @@ June 8 - June 14
 
 ### Time Period
 
-June 15 - June 21
+15 June - 21 June
 
 ### Weekly Check-in
 
@@ -79,12 +87,11 @@ June 15 - June 21
 - [PR #8](https://github.com/fluid-lab/gamepad-navigator/pull/8): Added [grunt-contrib-copy](https://www.npmjs.com/package/grunt-contrib-copy) and [grunt-contrib-clean](https://www.npmjs.com/package/grunt-contrib-clean) for clearing and copying the unpacked extension files and wrote an infusion component to read inputs from the gamepad.
 - Modified the above pull request to have the co-piloting feature, similar to the ["co-pilot mode" in Xbox One](https://www.youtube.com/watch?v=Ib9nL8qTbX0&list=PLUvQt4_vdB-hK8BI5CZr5XQjD3cFH4hYd) and other changes, as suggested by my mentor.
 - Investigated ways to simulate keypresses and agreed upon, with my mentor, that we might have to use custom synthetic events for navigation.
-- Looked into methods by which we can tab across elements. For the purpose, we had the [jQuery UI focusable selector](https://api.jqueryui.com/focusable-selector/), which lacked support for certain DOM elements. So I modified the function definition and added support for more DOM elements.
+- Looked into methods by which we can tab across elements. For the purpose, we had the [jQuery UI focusable selector](https://api.jqueryui.com/focusable-selector/) and the [jQuery UI tabbable selector](https://api.jqueryui.com/tabbable-selector/), but these lacked support for certain DOM elements. So I modified the function definition and added support for more DOM elements.
 - Moreover, the selector returns the items according to the flow of the webpage and not in order of their tabindex. So I added an extra layer of sorting to return the elements in that particular order.
+- Investigated ways to simulate gamepad input for testing purposes but couldn't find anything that suits to our needs. The only possible way is by passing a mock of the Gamepad API.
 - Another concern that needs to be addressed was closing the modals and alert dialogs. I researched and found that there's no way to do so using JavaScript. But I made a list of few workarounds we can use:
   - Using the Chrome Extension's [Notification API](https://developer.chrome.com/extensions/notifications) for notifying users about the alert and clearing the standard alert method's definition.
   - Replacing the alert method's definition to display a custom on-screen dialog box or the standard [jQuery UI dialog](https://jqueryui.com/dialog/#modal-confirmation).
 - Implemented the vertical and horizontal scroll feature. Also implemented scrolling for the standard directions (up, down, left, right) so that the user can scroll using buttons as well.<br>
   (_PR to be sent after the [PR #8](https://github.com/fluid-lab/gamepad-navigator/pull/8) is merged, to avoid merge conflicts)_
-- Started investigating ways to simulate gamepad input for testing purposes.
-  
