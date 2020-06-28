@@ -116,6 +116,7 @@ Tony Atkins, Colin Clark
 
 - [PR #9](https://github.com/fluid-lab/gamepad-navigator/pull/9): Added horizontal and vertical scroll for intra-webpage navigation. Along with this, I added the configrable options inside maps which can be used for every navigation action we build.
 - [PR #10](https://github.com/fluid-lab/gamepad-navigator/pull/10): Added tabbing and reverse tabbing for intra-webpage navigation (using [ally.js](https://allyjs.io/)). Along with it, some TODOs were added and bugs were fixed related to the previous pull requests.
+- [FLUID-6522](https://github.com/fluid-project/infusion/pull/997): Added jQuery UI [focusable](https://api.jqueryui.com/focusable-selector/) and the [tabbable](https://api.jqueryui.com/tabbable-selector/) pseudo-selectors which was closed later as we discovered [ally.js](https://allyjs.io/) which is better and worked well with Chrome.
 - Made changes to the [PR #8](https://github.com/fluid-lab/gamepad-navigator/pull/8) as suggested by my mentor.
 - Investigated various ways, strategies, libraries, and frameworks which can be used to test out Chrome extension. I discussed this with my mentor and we decided that we might have to use multiple testing libraries and frameworks as per the requirements and the design of our Chrome Extension.
 - Wrote some basic tests for scroll navigation - [Commit](https://github.com/dmahajan980/gamepad-navigator/commit/7656024df3b65685927a24856738a12004f654ed) and made slight modifications to the components in my previous commits.<br>
