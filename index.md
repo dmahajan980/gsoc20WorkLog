@@ -95,3 +95,28 @@ Tony Atkins, Colin Clark
   - Replacing the alert method's definition to display a custom on-screen dialog box or the standard [jQuery UI dialog](https://jqueryui.com/dialog/#modal-confirmation).
 - Implemented the vertical and horizontal scroll feature. Also implemented scrolling for the standard directions (up, down, left, right) so that the user can scroll using buttons as well.<br>
   (_PR to be sent after the [PR #8](https://github.com/fluid-lab/gamepad-navigator/pull/8) is merged, to avoid merge conflicts)_
+
+---
+ 
+## Week Four
+
+### Time Period
+
+22 June - 28 June
+
+### Weekly Check-in
+
+- In this week's check in, we decided that we should focus on the tab navigation functionality and tests related to it.
+- We talked about the absence of jQuery UI [focusable](https://api.jqueryui.com/focusable-selector/) and the [tabbable](https://api.jqueryui.com/tabbable-selector/) pseudo-selectors inside Infusion, which would be used for our project. To resolve the issue, my mentor opened the [FLUID-6522](https://issues.fluidproject.org/browse/FLUID-6522) for me to work on.
+- My mentor suggested me to use `tabbable` instead of the `focusable` pseudo-selector for the tab navigation.
+- I shared that we can't have a gamepad simulator for testing purposes. So we decided that we'll use a gamepad-mock based approach for the tests to work.
+- I also shared that we can't manipulate the alert dialog boxes using JavaScript and would probably have to modify the system definition to use custom UI alert boxes. One suggestion that I had was to use [Chrome's Notification API](https://developer.chrome.com/extensions/notifications) or the [jQuery UI Dialog](https://jqueryui.com/dialog/) for replacing the original modal definition. But my mentor suggested to work on it after we are done with the UI of the Chrome Extension (in third phase).
+
+### Tasks Completed
+
+- [PR #9](https://github.com/fluid-lab/gamepad-navigator/pull/9): Added horizontal and vertical scroll for intra-webpage navigation. Along with this, I added the configrable options inside maps which can be used for every navigation action we build.
+- [PR #10](https://github.com/fluid-lab/gamepad-navigator/pull/10): Added tabbing and reverse tabbing for intra-webpage navigation (using [ally.js](https://allyjs.io/)). Along with it, some TODOs were added and bugs were fixed related to the previous pull requests.
+- Made changes to the [PR #8](https://github.com/fluid-lab/gamepad-navigator/pull/8) as suggested by my mentor.
+- Investigated various ways, strategies, libraries, and frameworks which can be used to test out Chrome extension. I discussed this with my mentor and we decided that we might have to use multiple testing libraries and frameworks as per the requirements and the design of our Chrome Extension.
+- Wrote some basic tests for scroll navigation - [Commit](https://github.com/dmahajan980/gamepad-navigator/tree/scroll-tests).<br>
+  (_PR to be sent later_)
