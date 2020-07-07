@@ -121,3 +121,24 @@ Tony Atkins, Colin Clark
 - Investigated various ways, strategies, libraries, and frameworks which can be used to test out Chrome extension. I discussed this with my mentor and we decided that we might have to use multiple testing libraries and frameworks as per the requirements and the design of our Chrome Extension.
 - Wrote some basic tests for scroll navigation - [Commit](https://github.com/dmahajan980/gamepad-navigator/commit/7656024df3b65685927a24856738a12004f654ed) and made slight modifications to the components in my previous commits.<br>
   (_PR to be sent later_)
+
+---
+ 
+## Week Five | Evaluation One
+
+### Time Period
+
+29 June - 5 July
+
+### Weekly Check-in
+
+- In this week's check-in, we discussed the testing patterns and strategies that we use in our tests.
+- My mentor briefed me about a few concerns about the codebase parts that might produce an error while writing tests and discussed ways to rectify them.
+- We also talked about the current testing pattern that I used in my first test fixture, and my mentor suggested some changes in that test fixture and to be followed in every other test fixture.
+
+### Tasks Completed
+
+- [PR #12](https://github.com/fluid-lab/gamepad-navigator/pull/12): Added tests for horizontal and vertical scrolling.
+- [PR #13](https://github.com/fluid-lab/gamepad-navigator/pull/13): Added tests for tab navigation.
+- [PR #16](https://github.com/fluid-lab/gamepad-navigator/pull/16): Added click feature for webpage clicks using the gamepad and also added some tests.
+- [PR #17](https://github.com/fluid-lab/gamepad-navigator/pull/17) and [PR #18](https://github.com/fluid-lab/gamepad-navigator/pull/18): Updated scroll and tab navigation tests to follow the same pattern used in the click tests.
