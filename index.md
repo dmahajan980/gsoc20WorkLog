@@ -144,7 +144,7 @@ Tony Atkins, Colin Clark
 
 ---
  
-## Week Four
+## Week Four | End of Phase One
 
 ### Time Period
 
@@ -189,7 +189,7 @@ Tony Atkins, Colin Clark
 
 ---
  
-## Week Five | Evaluation One | End of Phase One
+## Week Five | Evaluation One
 
 ### Time Period
 
