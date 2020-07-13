@@ -220,10 +220,9 @@ Tony Atkins, Colin Clark
 <p align="center">
   <img src="https://i.imgur.com/uPubqlO.png" />
   <p align="center">
-    <i>
-      Apart from the satisfaction that came with passing the evaluation 😌, I became happier after reading these
-      notes ❤️<br>
-      Having a mentor like mine is truly a blessing 🙌✨
+    <i>Apart from the satisfaction that came with passing the evaluation</i> 😌, <i>I became happier after reading
+    these notes</i> ❤️<br>
+    <i>It feels blessed and privileged to work with my mentor</i> 🙌✨
     </i>
   </p>
 </p>
