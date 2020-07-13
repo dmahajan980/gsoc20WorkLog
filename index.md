@@ -212,6 +212,16 @@ Tony Atkins, Colin Clark
 - [PR #17](https://github.com/fluid-lab/gamepad-navigator/pull/17) and
   [PR #18](https://github.com/fluid-lab/gamepad-navigator/pull/18): Updated scroll and tab navigation tests to follow
   the same pattern used in the click tests.
+  
+---
+
+## First Evaluation Results
+
+<p align="center">
+  <img src="https://i.imgur.com/89qfLyD.png" />
+</p>
+
+---
 
 ## Week Six | Beginning of Phase Two
 
