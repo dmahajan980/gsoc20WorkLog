@@ -212,3 +212,28 @@ Tony Atkins, Colin Clark
 - [PR #17](https://github.com/fluid-lab/gamepad-navigator/pull/17) and
   [PR #18](https://github.com/fluid-lab/gamepad-navigator/pull/18): Updated scroll and tab navigation tests to follow
   the same pattern used in the click tests.
+
+## Week Six | Beginning of Phase Two
+
+### Time Period
+
+6 July - 12 July
+
+### Weekly Check-in
+
+- In this week's check-in, we discussed about adding GitHub Actions to the project's repository since we already had
+  some basic tests.
+- We talked about the project plan and decided that we should proceed with the history navigation where the focus before
+  the user navigated some other page should be restored, after the user navigates back to the same page in history.
+- We also decided that we'll go for the integration tests in the Phase 3 when we are done with the configuration panel
+  and may skip the browser tab navigation, if needed. The important parts to be implemented are the history navigation,
+  page refresh, and the back button.
+- My mentor also talked about the Design Crit where I'll present my work to the community members and obtain their
+  feedback. Their suggestions will be considered to improve the funcionality of the gamepad navigator.
+
+### Tasks Completed
+
+- [PR #19](https://github.com/fluid-lab/gamepad-navigator/pull/19): Added feature for forward and backward history
+  navigation.
+- [PR #21](https://github.com/fluid-lab/gamepad-navigator/pull/21): Added feature to open and close tabs.
+- Started working on the forward and backward browser tab navigation and the single-press tab navigation.
