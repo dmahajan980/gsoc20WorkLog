@@ -219,6 +219,13 @@ Tony Atkins, Colin Clark
 
 <p align="center">
   <img src="https://i.imgur.com/uPubqlO.png" />
+  <p align="center">
+    <i>
+      Apart from the satisfaction that came with passing the evaluation :relieved:, I became happier after reading these
+      notes :sparkling_heart:<br>
+      Having a mentor like mine is truly a blessing :raised_hands::sparkles:
+    </i>
+  </p>
 </p>
 
 ---
