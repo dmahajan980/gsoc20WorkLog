@@ -218,7 +218,7 @@ Tony Atkins, Colin Clark
 ## First Evaluation Results
 
 <p align="center">
-  <img src="https://i.imgur.com/89qfLyD.png" />
+  <img src="https://i.imgur.com/uPubqlO.png" />
 </p>
 
 ---
