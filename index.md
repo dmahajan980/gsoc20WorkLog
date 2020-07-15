@@ -222,7 +222,7 @@ Tony Atkins, Colin Clark
   <p align="center">
     <i>Apart from the satisfaction that came with passing the evaluation</i> 😌, <i>I became happier after reading
     these notes</i> ❤️<br>
-    <i>It feels blessed and privileged to work with my mentor</i> 🙌✨
+    <i>It feels blessed and privileged having this opportunity to work under my mentor</i> 🙌✨
   </p>
 </p>
 
