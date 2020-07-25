@@ -10,7 +10,7 @@ Divyanshu Mahajan
 
 ### Mentors
 
-Tony Atkins, Colin Clark
+Tony Atkins
 
 # Community Bonding Period
 
