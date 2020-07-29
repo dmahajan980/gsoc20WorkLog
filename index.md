@@ -266,21 +266,51 @@ Tony Atkins
 - In this week's check-in, we discussed the remaining features for the project and the order we want them to be
 completed.
 - We also talked about adding some other features apart from those specified in the proposal, such as zoom in/out
-([#29](https://github.com/fluid-lab/gamepad-navigator/issues/29)), maximize/restore browser windows
-([#28](https://github.com/fluid-lab/gamepad-navigator/issues/28)), reopening closed tabs
-([#24](https://github.com/fluid-lab/gamepad-navigator/issues/24)), et cetera.
+  ([#29](https://github.com/fluid-lab/gamepad-navigator/issues/29)), maximize/restore browser windows
+  ([#28](https://github.com/fluid-lab/gamepad-navigator/issues/28)), reopening closed tabs
+  ([#24](https://github.com/fluid-lab/gamepad-navigator/issues/24)), et cetera.
 - My mentor suggested completing the configuration panel first. Still, I shared that the inter-navigation features such
-as opening and closing new windows and switching them would be easy to implement. So we decided to complete those first.
+  as opening and closing new windows and switching them would be easy to implement. So we decided to complete those
+  first.
 
 ### Tasks Completed
 
 - [PR #25](https://github.com/fluid-lab/gamepad-navigator/pull/25): Added the ability to switch browser tabs in both
-forward and backward directions using gamepad buttons.
+  forward and backward directions using gamepad buttons.
 - [PR #31](https://github.com/fluid-lab/gamepad-navigator/pull/31): Added documentation for `gamepad.navigator`
-component.
+  component.
 - [PR #33](https://github.com/fluid-lab/gamepad-navigator/pull/33): Added feature to open and close browser windows
-using the gamepad.
+  using the gamepad.
 - [PR #36](https://github.com/fluid-lab/gamepad-navigator/pull/36): Added feature to switch browser windows in forward
-and reverse direction using the gamepad. Also fixed the issue
-[#34](https://github.com/fluid-lab/gamepad-navigator/issues/34) where non-active tabs and windows were reading the
-gamepad inputs.
+  and reverse direction using the gamepad. Also fixed the issue
+  [#34](https://github.com/fluid-lab/gamepad-navigator/issues/34) where non-active tabs and windows were reading the
+  gamepad inputs.
+
+---
+
+## Week Eight
+
+### Time Period
+
+20 July - 26 July
+
+### Weekly Check-in
+
+- In this week's check-in, we discussed about the changes to the configuration panel that I prepared before the
+  check-in.
+- My mentor suggested making the SVG buttons/triggers/axes clickable for the user to navigate directly to the input's
+  configuration menu instead of tabbing to it. I added that we could use a list instead to make things easier and to
+  save time working on other issues, and we both agreed with it.
+- He also suggested displaying the extra options such as Speed Factor, Invert Axes, et cetera, if it's relevant to the
+  action. Additionally, adding a description of the gamepad input would be suitable instead of merely showing the
+  gamepad input index.
+- Another point we discussed was adding a Set All to None button, which could be used by the user to set only one or
+  more controls on the gamepad. He also suggested disabling the Save Changes button if the user does not change the
+  configuration.
+- Apart from the above, we talked about adding another button named Restore Default Controls for restoring the default
+  configuration of the gamepad controls.
+
+### Tasks Completed
+
+- [PR #37](https://github.com/fluid-lab/gamepad-navigator/pull/37): Added configuration panel with all the features and
+  suggestions, as discussed above.
