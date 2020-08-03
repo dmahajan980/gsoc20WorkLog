@@ -288,7 +288,7 @@ completed.
 
 ---
 
-## Week Eight
+## Week Eight | End of Phase Two
 
 ### Time Period
 
@@ -314,3 +314,49 @@ completed.
 
 - [PR #37](https://github.com/fluid-lab/gamepad-navigator/pull/37): Added configuration panel with all the features and
   suggestions, as discussed above.
+
+---
+ 
+## Week Nine | Second Evaluation
+
+### Time Period
+
+27 July - 2 August
+
+### Weekly Check-in
+
+- In the weekly check-in, we discussed the project plan and rearranged a few milestones to be completed before the
+  design crit.
+- We also talked about the structure of the configuration panel and decided that we should refactor it and split it into
+  two separate pull requests addressing the following:
+  - Changing the selectors to use `viewComponent` selectors.
+  - Using `fluid.binder` to attach our component's model to the DOM input elements' data.
+- We also discussed in brief about the design crit where I'll present my work to the community. My mentor said that
+  it'd be around 5th or 12th August at 7:30 pm.
+
+### Tasks Completed
+
+- [PR #39](https://github.com/fluid-lab/gamepad-navigator/pull/37): Added the "Discard Changes" button to the
+  configuration panel with the mechanism to store unsaved changes.
+- [PR #42](https://github.com/fluid-lab/gamepad-navigator/pull/42): Added feature to zoom in/out using gamepad buttons,
+  axes, and thumbsticks.
+- [PR #43](https://github.com/fluid-lab/gamepad-navigator/pull/43): Added feature to maximize/restore windows using the
+  gamepad.
+- [PR #46](https://github.com/fluid-lab/gamepad-navigator/pull/46): Added feature to reopen closed tabs/windows using
+  the gamepad.
+- [PR #47](https://github.com/fluid-lab/gamepad-navigator/pull/47): Fixed monitor switching issues with maximize/restore
+  windows (on macOS X).
+- [PR #48](https://github.com/fluid-lab/gamepad-navigator/pull/48): Added list to switch between different inputs'
+  configuration menu and polished the UI of the configuration panel.
+- [PR #49](https://github.com/fluid-lab/gamepad-navigator/pull/49): Added documentation for configMaps grade.
+  
+---
+
+## Second Evaluation Results
+
+<p align="center">
+  <img src="https://i.imgur.com/3gv2HWr.png" />
+  <p align="center">
+    <i>Glad we made it!</i> 🙏✨
+  </p>
+</p>
