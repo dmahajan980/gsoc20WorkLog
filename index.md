@@ -360,3 +360,27 @@ completed.
     <i>Glad we made it!</i> 🙏✨
   </p>
 </p>
+
+## Week Ten | Beginning of Phase Three
+
+### Time Period
+
+3 August - 9 August
+
+### Weekly Check-in
+
+- In the weekly check-in, we discussed about the upcoming design crit on 11th August, 2020 where I'll be presenting my work to the
+  community members.
+- The crit would also involve taking feedback from the community members for feature additions, improvements in the current
+  implementation, and creating tickets based on those points.
+- My mentor advised that I should record a video demonstrating the functionality of the extension instead of a live demo to avoid
+  any technical issues in between.
+- He also guided me on the presentation style and the preparations that I should make beforehand.
+
+### Tasks Completed
+
+- [PR #51](https://github.com/fluid-lab/gamepad-navigator/pull/51): Added documentation for inputMapper.base component.
+- [PR #52](https://github.com/fluid-lab/gamepad-navigator/pull/52): Updated the documentation of `navigator` component.
+- Updated [PR #47](https://github.com/fluid-lab/gamepad-navigator/pull/47),
+  [PR #48](https://github.com/fluid-lab/gamepad-navigator/pull/48), and
+  [PR #49](https://github.com/fluid-lab/gamepad-navigator/pull/49) as per the feedback recieved from my mentor.
