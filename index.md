@@ -222,7 +222,7 @@ Tony Atkins
   <p align="center">
     <i>Apart from the satisfaction that came with passing the evaluation</i> 😌, <i>I became happier after reading
     these notes</i> ❤️<br>
-    <i>It feels blessed and privileged having this opportunity to work under my mentor</i> 🙌✨
+    <i>I feel blessed and privileged having this opportunity to work under the mentorship of Tony</i> 🙌✨
   </p>
 </p>
 
