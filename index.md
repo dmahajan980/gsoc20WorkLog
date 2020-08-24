@@ -371,12 +371,12 @@ completed.
 
 ### Weekly Check-in
 
-- In the weekly check-in, we discussed about the upcoming design crit on 11th August, 2020 where I'll be presenting my work to the
+- In the weekly check-in, we discussed the upcoming design crit on 11th August 2020, where I’ll be presenting my work to the
   community members.
 - The crit would also involve taking feedback from the community members for feature additions, improvements in the current
   implementation, and creating tickets based on those points.
-- My mentor advised that I should record a video demonstrating the functionality of the extension instead of a live demo to avoid
-  any technical issues in between.
+- My mentor advised that I record a video demonstrating the extension's functionality instead of a live demo to avoid any
+  technical issues in between.
 - He also guided me on the presentation style and the preparations that I should make beforehand.
 
 ### Tasks Completed
@@ -398,23 +398,28 @@ completed.
 ### Weekly Check-in
 
 - We had multiple check-ins this week. The first one took a day before the design crit.
-- I shared the presentation slides with my mentor that I prepared for the crit and he suggested some changes to make it better.
+- I shared the presentation slides with my mentor that I prepared for the crit, and he suggested some changes to make it
+  better.
 - He briefed me about the structure of the design crit and the sequence that will be followed.
-- My mentor suggested me to keep the demo video not more than 10 minutes. I added that the playtime exceeding the range owing to
-  the number of features we have. To this, he suggested that I can show one of the pair feaures to reduce the playtime.
-- The second check-in took on the day after the design crit. I shared that my college will be opening on 19th August, 2020 so I
-  would have less time to work on the project after that. My mentor suggested to complete the documentation and then frame
-  approaches to trigger the event hooks.
-- We mutually agreed that I'll complete the remaining work (tests, long-term goals, et cetera) after the program ends.
+- My mentor suggested me to keep the demo video not more than 10 minutes. I added that the playtime was exceeding the
+  range owing to the number of features we have. To this, he suggested that I can show one of the pair features to reduce
+  the playtime.
+- The second check-in took on the day after the design crit. I shared that my college will be opening on 19th August 2020,
+  so I would have less time to work on the project after that. My mentor suggested to complete the documentation and then
+  frame approaches to trigger the event hooks.
+- We mutually agreed that I'd complete the remaining work (tests, long-term goals, et cetera) after the program ends.
 - Owing to the time we have before the college opens, he suggested that we should check-in next week if necessary.
 
 ### Tasks Completed
 
-- [PR #54](https://github.com/fluid-lab/gamepad-navigator/pull/54): Added documentation for the `inputMapper` component and updated   the `visibilityChangeTracker` function to allow passing custom configuration options.
-- [PR #55](https://github.com/fluid-lab/gamepad-navigator/pull/55): Added documentation for the `messageListener` component.
-- [PR #56](https://github.com/fluid-lab/gamepad-navigator/pull/56): Added documentation for the `configurationPanel` component.
-- [PR #57](https://github.com/fluid-lab/gamepad-navigator/pull/57): Added the list of actions, default controls, and reference to
-  the demo video link to README.
+- [PR #54](https://github.com/fluid-lab/gamepad-navigator/pull/54): Added documentation for the `inputMapper` component
+  and updated the `visibilityChangeTracker` function to allow passing custom configuration options.
+- [PR #55](https://github.com/fluid-lab/gamepad-navigator/pull/55): Added documentation for the `messageListener`
+  component.
+- [PR #56](https://github.com/fluid-lab/gamepad-navigator/pull/56): Added documentation for the `configurationPanel`
+  component.
+- [PR #57](https://github.com/fluid-lab/gamepad-navigator/pull/57): Added the list of actions, default controls, and
+  reference to the demo video link to README.
 - Started looking into approaches to simulate the gamepad for testing using the
   [Selenium WebDriver](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebDriver.html).
 - Started working on different approaches to trigger event hooks.
