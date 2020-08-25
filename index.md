@@ -8,7 +8,7 @@ Using a Game Controller as a Navigation Aid
 
 Divyanshu Mahajan
 
-### Mentors
+### Mentor
 
 Tony Atkins
 
