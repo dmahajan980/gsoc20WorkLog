@@ -423,3 +423,29 @@ completed.
 - Started looking into approaches to simulate the gamepad for testing using the
   [Selenium WebDriver](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/WebDriver.html).
 - Started working on different approaches to trigger event hooks.
+
+---
+
+## Week Twelve
+
+### Time Period
+
+17 August - 23 August
+
+### Weekly Check-in
+
+- We didn't check-in this week because of the time constraints. But there were a few things we discussed during our
+  chat.
+- The first thing was finding an icon for the extension.
+- The other thing we talked about was publishing the extension to the Chrome Web Store. My mentor suggested that I
+  should frame the steps to publish the extension in brief.
+
+### Tasks Completed
+
+- Looked into various web sites for icons that we can use for the extension. Since all of those had some kind of
+  attribution terms associated with themselves, I created a custom icon myself.
+- [PR #63](https://github.com/fluid-lab/gamepad-navigator/pull/63): Added the extension icon, grunt tasks, and
+  steps to publish the extension. The first grunt tasks updates the `version` variable in the `manifest.json` and
+  `package.json` files, and another task to create a release on GitHub.
+- Updated [PR #56](https://github.com/fluid-lab/gamepad-navigator/pull/56) and
+  [PR #57](https://github.com/fluid-lab/gamepad-navigator/pull/57) as per the feedback recieved from my mentor.
