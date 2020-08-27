@@ -426,7 +426,7 @@ completed.
 
 ---
 
-## Week Twelve
+## Week Twelve | End of Phase Three
 
 ### Time Period
 
@@ -444,8 +444,7 @@ completed.
 
 - Looked into various web sites for icons that we can use for the extension. Since all of those had some kind of
   attribution terms associated with themselves, I created a custom icon myself.
-- [PR #63](https://github.com/fluid-lab/gamepad-navigator/pull/63): Added the extension icon, grunt tasks, and
-  steps to publish the extension. The first grunt tasks updates the `version` variable in the `manifest.json` and
-  `package.json` files, and another task to create a release on GitHub.
+- [PR #63](https://github.com/fluid-lab/gamepad-navigator/pull/63): Added the extension icon and steps to publish
+  the extension.
 - Updated [PR #56](https://github.com/fluid-lab/gamepad-navigator/pull/56) and
   [PR #57](https://github.com/fluid-lab/gamepad-navigator/pull/57) as per the feedback recieved from my mentor.
