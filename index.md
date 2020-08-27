@@ -448,3 +448,17 @@ completed.
   the extension.
 - Updated [PR #56](https://github.com/fluid-lab/gamepad-navigator/pull/56) and
   [PR #57](https://github.com/fluid-lab/gamepad-navigator/pull/57) as per the feedback recieved from my mentor.
+
+---
+
+## Week Thirteen | Wrap-up | Final Evaluation
+
+### Time Period
+
+17 August - 23 August
+
+### Tasks Completed
+
+- Updated [PR #63](https://github.com/fluid-lab/gamepad-navigator/pull/63) by adding multiple Grunt tasks for
+  automating the process of creating a release on GitHub. The first grunt tasks creates a zip file, the second task
+  updates the `version` in the `manifest.json` and `package.json` files, and the third task creates a release on GitHub.
