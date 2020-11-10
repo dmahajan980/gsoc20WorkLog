@@ -463,3 +463,16 @@ completed.
   automating the process of creating a release on GitHub. The first grunt tasks creates a zip file, the second task
   updates the `version` in the `manifest.json` and `package.json` files, and the third task creates a release on GitHub.
 - Searched and looked for approaches to trigger event hooks.
+
+---
+
+## Final Evaluation Results
+
+<p align="center">
+  <img src="GSoC Final Evaluation.png" />
+  <p align="center">
+    <i>Thanks to my mentor Tony for being so supportive and encouraging throughout the coding period</i> ❤️<br>
+    <i>This was the best and the most productive summer of my life<br>
+      and I look forward to continue working with Tony and the Fluid Community</i> ✨
+  </p>
+</p>
